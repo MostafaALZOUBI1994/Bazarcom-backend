@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advertisments",
+  "info": {
+    "name": "advertisment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "sub_category": {
+      "model": "sub-category",
+      "via": "advertisments"
+    },
+    "type_of_ads": {
+      "type": "string"
+    },
+    "Governorate": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "models": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "guarantee": {
+      "type": "string"
+    },
+    "manufacturing_year": {
+      "type": "string"
+    },
+    "kilometers": {
+      "type": "string"
+    },
+    "gear": {
+      "type": "string"
+    },
+    "imagess": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "price": {
+      "type": "integer"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "published_date": {
+      "type": "datetime"
+    },
+    "user_number": {
+      "type": "string"
+    },
+    "views": {
+      "type": "json"
+    },
+    "user_token": {
+      "type": "string"
+    }
+  }
+}
