@@ -715,10 +715,16 @@
                 "user_number": {
                   "type": "string"
                 },
-                "views": {
-                  "type": "object"
-                },
                 "user_token": {
+                  "type": "string"
+                },
+                "views": {
+                  "type": "integer"
+                },
+                "engine_power": {
+                  "type": "string"
+                },
+                "engine_size": {
                   "type": "string"
                 },
                 "published_at": {

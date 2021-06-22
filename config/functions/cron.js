@@ -30,7 +30,7 @@ var fcm = new FCM(serverKey);
         var Difference_In_Time = date2.getTime() - date1.getTime();
         var Difference_In_Days = parseInt(Difference_In_Time / (1000 * 3600 * 24));
          console.log(Difference_In_Days)
-         if(Difference_In_Days>5){
+         if(Difference_In_Days>5000){
           strapi.query('advertisment').delete({
             id: article.id
           })

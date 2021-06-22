@@ -84,10 +84,16 @@
     "user_number": {
       "type": "string"
     },
-    "views": {
-      "type": "json"
-    },
     "user_token": {
+      "type": "string"
+    },
+    "views": {
+      "type": "biginteger"
+    },
+    "engine_power": {
+      "type": "string"
+    },
+    "engine_size": {
       "type": "string"
     }
   }
