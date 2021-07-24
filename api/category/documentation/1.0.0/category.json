@@ -525,34 +525,6 @@
           "name": {
             "type": "string"
           },
-          "main_category": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "categories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
-          },
           "image": {
             "required": [
               "id",
@@ -647,6 +619,15 @@
                 },
                 "name_ar": {
                   "type": "string"
+                },
+                "KindOfAdvertisment": {
+                  "type": "object"
+                },
+                "status": {
+                  "type": "object"
+                },
+                "categories": {
+                  "type": "object"
                 },
                 "published_at": {
                   "type": "string"

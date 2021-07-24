@@ -667,9 +667,6 @@
                 "city": {
                   "type": "string"
                 },
-                "category": {
-                  "type": "string"
-                },
                 "models": {
                   "type": "string"
                 },
@@ -709,9 +706,6 @@
                 "user_id": {
                   "type": "string"
                 },
-                "published_date": {
-                  "type": "string"
-                },
                 "user_number": {
                   "type": "string"
                 },
@@ -725,6 +719,12 @@
                   "type": "string"
                 },
                 "engine_size": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "kindOfAdvertisment": {
                   "type": "string"
                 },
                 "published_at": {
@@ -741,6 +741,15 @@
           },
           "name_ar": {
             "type": "string"
+          },
+          "KindOfAdvertisment": {
+            "type": "object"
+          },
+          "status": {
+            "type": "object"
+          },
+          "categories": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",
@@ -764,6 +773,15 @@
           },
           "name_ar": {
             "type": "string"
+          },
+          "KindOfAdvertisment": {
+            "type": "object"
+          },
+          "status": {
+            "type": "object"
+          },
+          "categories": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",

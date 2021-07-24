@@ -24,6 +24,7 @@
     "strapi-plugin-email": "3.5.4",
     "strapi-plugin-upload": "3.5.4",
     "strapi-plugin-users-permissions": "3.5.4",
+    "strapi-provider-email-sendmail": "^3.6.5",
     "strapi-utils": "3.5.4"
   },
   "author": {

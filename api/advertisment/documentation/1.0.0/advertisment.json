@@ -551,6 +551,15 @@
               "name_ar": {
                 "type": "string"
               },
+              "KindOfAdvertisment": {
+                "type": "object"
+              },
+              "status": {
+                "type": "object"
+              },
+              "categories": {
+                "type": "object"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -569,9 +578,6 @@
             "type": "string"
           },
           "city": {
-            "type": "string"
-          },
-          "category": {
             "type": "string"
           },
           "models": {
@@ -741,10 +747,6 @@
           "user_id": {
             "type": "string"
           },
-          "published_date": {
-            "type": "string",
-            "format": "date-time"
-          },
           "user_number": {
             "type": "string"
           },
@@ -758,6 +760,12 @@
             "type": "string"
           },
           "engine_size": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "kindOfAdvertisment": {
             "type": "string"
           },
           "published_at": {
@@ -781,9 +789,6 @@
             "type": "string"
           },
           "city": {
-            "type": "string"
-          },
-          "category": {
             "type": "string"
           },
           "models": {
@@ -816,10 +821,6 @@
           "user_id": {
             "type": "string"
           },
-          "published_date": {
-            "type": "string",
-            "format": "date-time"
-          },
           "user_number": {
             "type": "string"
           },
@@ -833,6 +834,12 @@
             "type": "string"
           },
           "engine_size": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "kindOfAdvertisment": {
             "type": "string"
           },
           "published_at": {

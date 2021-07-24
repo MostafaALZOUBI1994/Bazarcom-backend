@@ -15,8 +15,8 @@
       "type": "string"
     },
     "sub_category": {
-      "model": "sub-category",
-      "via": "advertisments"
+      "via": "advertisments",
+      "model": "sub-category"
     },
     "type_of_ads": {
       "type": "string"
@@ -25,9 +25,6 @@
       "type": "string"
     },
     "city": {
-      "type": "string"
-    },
-    "category": {
       "type": "string"
     },
     "models": {
@@ -78,9 +75,6 @@
     "user_id": {
       "type": "string"
     },
-    "published_date": {
-      "type": "datetime"
-    },
     "user_number": {
       "type": "string"
     },
@@ -94,6 +88,12 @@
       "type": "string"
     },
     "engine_size": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "kindOfAdvertisment": {
       "type": "string"
     }
   }

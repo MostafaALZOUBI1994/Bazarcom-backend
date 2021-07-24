@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "06/21/2021 9:08:30 PM"
+    "x-generation-date": "07/21/2021 8:52:10 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4381,6 +4381,15 @@
               "name_ar": {
                 "type": "string"
               },
+              "KindOfAdvertisment": {
+                "type": "object"
+              },
+              "status": {
+                "type": "object"
+              },
+              "categories": {
+                "type": "object"
+              },
               "published_at": {
                 "type": "string"
               },
@@ -4399,9 +4408,6 @@
             "type": "string"
           },
           "city": {
-            "type": "string"
-          },
-          "category": {
             "type": "string"
           },
           "models": {
@@ -4571,10 +4577,6 @@
           "user_id": {
             "type": "string"
           },
-          "published_date": {
-            "type": "string",
-            "format": "date-time"
-          },
           "user_number": {
             "type": "string"
           },
@@ -4588,6 +4590,12 @@
             "type": "string"
           },
           "engine_size": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "kindOfAdvertisment": {
             "type": "string"
           },
           "published_at": {
@@ -4611,9 +4619,6 @@
             "type": "string"
           },
           "city": {
-            "type": "string"
-          },
-          "category": {
             "type": "string"
           },
           "models": {
@@ -4646,10 +4651,6 @@
           "user_id": {
             "type": "string"
           },
-          "published_date": {
-            "type": "string",
-            "format": "date-time"
-          },
           "user_number": {
             "type": "string"
           },
@@ -4663,6 +4664,12 @@
             "type": "string"
           },
           "engine_size": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "kindOfAdvertisment": {
             "type": "string"
           },
           "published_at": {
@@ -4687,34 +4694,6 @@
           },
           "name": {
             "type": "string"
-          },
-          "main_category": {
-            "required": [
-              "id"
-            ],
-            "properties": {
-              "id": {
-                "type": "string"
-              },
-              "name": {
-                "type": "string"
-              },
-              "categories": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "published_at": {
-                "type": "string"
-              },
-              "created_by": {
-                "type": "string"
-              },
-              "updated_by": {
-                "type": "string"
-              }
-            }
           },
           "image": {
             "required": [
@@ -4810,6 +4789,15 @@
                 },
                 "name_ar": {
                   "type": "string"
+                },
+                "KindOfAdvertisment": {
+                  "type": "object"
+                },
+                "status": {
+                  "type": "object"
+                },
+                "categories": {
+                  "type": "object"
                 },
                 "published_at": {
                   "type": "string"
@@ -5081,9 +5069,6 @@
                 "city": {
                   "type": "string"
                 },
-                "category": {
-                  "type": "string"
-                },
                 "models": {
                   "type": "string"
                 },
@@ -5123,9 +5108,6 @@
                 "user_id": {
                   "type": "string"
                 },
-                "published_date": {
-                  "type": "string"
-                },
                 "user_number": {
                   "type": "string"
                 },
@@ -5139,6 +5121,12 @@
                   "type": "string"
                 },
                 "engine_size": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "kindOfAdvertisment": {
                   "type": "string"
                 },
                 "published_at": {
@@ -5155,6 +5143,15 @@
           },
           "name_ar": {
             "type": "string"
+          },
+          "KindOfAdvertisment": {
+            "type": "object"
+          },
+          "status": {
+            "type": "object"
+          },
+          "categories": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",
@@ -5178,6 +5175,15 @@
           },
           "name_ar": {
             "type": "string"
+          },
+          "KindOfAdvertisment": {
+            "type": "object"
+          },
+          "status": {
+            "type": "object"
+          },
+          "categories": {
+            "type": "object"
           },
           "published_at": {
             "type": "string",
@@ -5288,6 +5294,9 @@
                   "type": "boolean"
                 },
                 "role": {
+                  "type": "string"
+                },
+                "phoneNumber": {
                   "type": "string"
                 },
                 "created_by": {
@@ -5402,6 +5411,9 @@
                 "type": "string"
               }
             }
+          },
+          "phoneNumber": {
+            "type": "string"
           }
         }
       },
@@ -5442,6 +5454,9 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "phoneNumber": {
             "type": "string"
           },
           "created_by": {

@@ -15,6 +15,7 @@
       "type": "string"
     },
     "main_category": {
+      "private": true,
       "model": "main-category",
       "via": "categories"
     },

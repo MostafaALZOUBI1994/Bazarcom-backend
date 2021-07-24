@@ -30,11 +30,20 @@
       "via": "sub_categories"
     },
     "advertisments": {
-      "via": "sub_category",
-      "collection": "advertisment"
+      "collection": "advertisment",
+      "via": "sub_category"
     },
     "name_ar": {
       "type": "string"
+    },
+    "KindOfAdvertisment": {
+      "type": "json"
+    },
+    "status": {
+      "type": "json"
+    },
+    "categories": {
+      "type": "json"
     }
   }
 }
